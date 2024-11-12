@@ -277,7 +277,7 @@ def main():
                                                  default=["Mill #1", "Mill #2", "Mill #3"])
             st.button("Confirm", key="confirm_mill_prediction")
             # 读取桌面上的XLSX文件
-            file_path = 'C:/Users/Vulcan/Desktop/Generated_Mill_Data-test.xlsx'
+            file_path = './resources/Generated_Mill_Data-test.xlsx'
             mill_prediction_data = pd.read_excel(file_path)
 
             # Prepare the plotly figures
