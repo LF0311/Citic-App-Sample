@@ -119,7 +119,7 @@ def main():
 
         st.sidebar.toggle("Dark Mode")
         st.sidebar.header(":rainbow[Smart Ore Tracking App]")
-        st.sidebar.image("dumptruck.png", width=240)
+        st.sidebar.image("dumpTruck.png", width=240)
         st.sidebar.subheader("***Next Gen Mine-to-Mill Intelligence***", divider='gray')
 
         app_chosen = st.sidebar.radio(
