@@ -112,7 +112,7 @@ def main():
     if 'username' not in st.session_state:
         st.session_state['username'] = None
 
-    name, authentication_status, username = authenticator.login(fields={'form_name': 'Sino Iron - Ore Tracking and Prediction App', 'location': 'main'})
+    name, authentication_status, username = authenticator.login('Sino Iron - Ore Tracking and Prediction App', fields={'form_name': 'Sino Iron - Ore Tracking and Prediction App', 'location': 'main'})
 
     if authentication_status:
         # Sidebar
