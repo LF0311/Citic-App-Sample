@@ -90,7 +90,7 @@ def annotate_image(image_path, t1, t2, t3):
 
 
 def main():
-    st.set_page_config(page_title='Schlam Smart Tray App', initial_sidebar_state='expanded')
+    st.set_page_config(page_title='Citic Smart Tray App', initial_sidebar_state='expanded')
     st.logo("citic_logo.png", size="large")
 
     with open('config.yaml') as file:
